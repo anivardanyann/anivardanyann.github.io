@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mannex</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/6168d3106c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+                
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="mannex-logo">
+                <a href="home.html"><img src="/assets/logo.png" alt="mannex-logo"></a>
+            </div>
+            <div class="header-menu">
+                <ul class="menu">
+                    <li class="menu-elements"><a href="#">Главная</a></li>
+                    <li class="menu-elements"><a href="#">Pro-Запрос</a></li>
+                    <li class="menu-elements"><a href="#">Гараж</a></li>
+                    <li class="menu-elements"><a href="#">Контакты</a> </li>
+                    <li class="menu-elements"><a href="#">Заказы</a></li>
+                </ul>
+            </div>
+            <div class="basket-amount">
+                <div class=" basket basket1"><i class="fas fa-shopping-cart"></i></div>
+                <div class="amount1">100000р.</div>
+    
+            </div>
+            <div class="account">
+                <div class="account-logo"><i class="fas fa-user"></i></div>
+                <div class="account-login">Войти</div>
+            </div>
+            
+        </header>
+    
+        <main>
+            <div class="search">
+                <form action="#">
+                    <input type="search" id="search"
+                        placeholder="Поиск по артикулу"
+                        name="search">
+                    <button>Поиск</button>
+                </form>
+            </div>
+            <!-- first banner -->
+            <div class="first-banner">
+                <div class="first-banner-left">
+                    <div class="introduction">
+                        <div class="heading">
+                            <h1>Предлагаем только качественные <span style="color: #4BA9FF">запчасти</span> для иномарок</h1>
+                        </div>
+                        <div class="first-banner-options">
+                            <button class="button-catalog">Посмотреть каталог</button>
+                            <div class="button more_items">Более 50 товаров</div>
+                        </div>
+                    </div>
+                    <div class="slideshow-container">        
+                        <div class="slideshow">
+                          <div class="arrows">
+                            <div class="arrow left"><img src="assets/Vector (3).png" alt="arrow"></div>
+                            <div class="arrow right"><img src="assets/Vector (2).png" alt="arrow"></div>
+                          </div>
+                          <div class="slide-media"><img src="assets/Товар.png"></div>
+                          <div class="numbertext">01<span style="color:#000000; font-size: 30px;">/08</span></div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="buttons">
+                    <button>Высокое качество</button>
+                    <button>Лучшие на рынке</button>
+                    <button>Большой выбор</button>
+                </div>
+            </div>
+    
+            <!-- about us--> 
+            <div class="about">
+                <div class="title"><div class="heading-background">О компании<div class="heading-small">О компании</div></div></div>
+                
+                <div class="about-container">
+                    <div class="about-text">
+                        <div class="paragraph">
+                            <p>Компания Mannex: продажа запчастей и аксессуаров высокого качества</p><br>
+        
+                            <p>Компания Mannex начала свою деятельность недавно, но уже успела заслужить хорошую репутацию среди покупателей. Количество положительных отзывов в адрес нашей компании от благодарных клиентов растет с каждым днем. В нашем интернет-магазине вы можете купить необходимые запчасти и аксессуары для своего автомобиля по выгодным ценам.</p><br>
+                            
+                            <p>Большой ассортимент</p><br>
+                            
+                            <p>В каталоге нашего магазина вы найдете автозапчасти для Lexus, Mazda или иных автомобилей. Среди широкого ассортимента</p><br>
+                        </div>
+                        <div class="see-more button">Читать дальше</div>
+                    </div>
+                    <div class="about-media">
+                        <img src="assets/Фото.png" alt="about-us">
+                    </div>
+                </div>
+            </div>
+
+            <!-- catalog -->
+            <div class="catalog-container">
+                <div class="title"><div class="heading-background catalog-heading">Каталог<div class="heading-small">Каталог</div></div></div>
+                <div class="catalog-container">
+                    <div class="header-menu catalog-menu">
+                        <ul class="menu">
+                            <li class="menu-elements"><a href="#">Шини </a></li>
+                            <li class="menu-elements"><a href="#">Диски</a></li>
+                            <li class="menu-elements"><a href="#">Аксессуары</a></li>
+                            <li class="menu-elements"><a href="#">Каталог ТО</a> </li>
+                            <li class="menu-elements"><a href="#">Масла и автохимия</a></li>
+                            <li class="menu-elements"><a href="#">Аккумуляторы</a></li>
+                            <li class="menu-elements"><a href="#">Колпаки</a></li>
+                            <li class="menu-elements"><a href="#">Колпаки</a></li>
+                        </ul>
+                    </div>
+                    <div class="catalog-main">
+                        <div class="catalog-leftside">
+                            <form action="/action_page.php">
+                                <label for="type">Тип</label><br><br>
+                                <select id="type" name="type" class="select-options">
+                                  <option value="summer" selected>Летние</option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                </select><br>
+                                <label for="production">Производитель</label><br><br>
+                                <select id="production" name="production" class="select-options">
+                                  <option value="all">Выбраны все</option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                </select><br>
+                                <label for="size">Размер</label><br><br>
+                                <select id="size" name="size" class="select-options">
+                                  <option value="all">Выбраны все</option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                </select><br>
+                                <label for="diameter">Диаметр</label><br><br>
+                                <select id="diameter" name="diameter" class="select-options">
+                                  <option value="all">Выбраны все</option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                  <option value=""></option>
+                                </select><br>
+                                
+                                <input type="submit" value="Подобрать">
+                              </form>
+                        </div>
+                        <div class="catalog-items-onsale">
+                            <div class="item">
+                                <div class="item-image">
+                                    <img src="assets/item.png" alt="">
+                                </div>
+                                <div class="item-name">Michelin</div>
+                                <div class="item-description">Шина летняя "Primacy 3 GRNX 205/55R16 91V"</div>
+                                <div class="buy-options">
+                                    <div class="price">990р.</div>
+                                    <div class="amount">
+                                        <div class="extract">-</div>
+                                        <div class="amount-number">1</div>
+                                        <div class="add">+</div>
+                                    </div>
+                                    <div class="basket basket2"><i class="fas fa-shopping-cart"></i></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-image">
+                                    <img src="assets/item.png" alt="">
+                                </div>
+                                <div class="item-name">Michelin</div>
+                                <div class="item-description">Шина летняя "Primacy 3 GRNX 205/55R16 91V"</div>
+                                <div class="buy-options">
+                                    <div class="price">990р.</div>
+                                    <div class="amount">
+                                        <div class="extract">-</div>
+                                        <div class="amount-number">1</div>
+                                        <div class="add">+</div>
+                                    </div>
+                                    <div class="basket basket2"><i class="fas fa-shopping-cart"></i></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-image">
+                                    <img src="assets/item.png" alt="">
+                                </div>
+                                <div class="item-name">Michelin</div>
+                                <div class="item-description">Шина летняя "Primacy 3 GRNX 205/55R16 91V"</div>
+                                <div class="buy-options">
+                                    <div class="price">990р.</div>
+                                    <div class="amount">
+                                        <div class="extract">-</div>
+                                        <div class="amount-number">1</div>
+                                        <div class="add">+</div>
+                                    </div>
+                                    <div class="basket basket2"><i class="fas fa-shopping-cart"></i></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-image">
+                                    <img src="assets/item.png" alt="">
+                                </div>
+                                <div class="item-name">Michelin</div>
+                                <div class="item-description">Шина летняя "Primacy 3 GRNX 205/55R16 91V"</div>
+                                <div class="buy-options">
+                                    <div class="price">990р.</div>
+                                    <div class="amount">
+                                        <div class="extract">-</div>
+                                        <div class="amount-number">1</div>
+                                        <div class="add">+</div>
+                                    </div>
+                                    <div class="basket basket2"><i class="fas fa-shopping-cart"></i></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-image">
+                                    <img src="assets/item.png" alt="">
+                                </div>
+                                <div class="item-name">Michelin</div>
+                                <div class="item-description">Шина летняя "Primacy 3 GRNX 205/55R16 91V"</div>
+                                <div class="buy-options">
+                                    <div class="price">990р.</div>
+                                    <div class="amount">
+                                        <div class="extract">-</div>
+                                        <div class="amount-number">1</div>
+                                        <div class="add">+</div>
+                                    </div>
+                                    <div class="basket basket2"><i class="fas fa-shopping-cart"></i></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-image">
+                                    <img src="assets/item.png" alt="">
+                                </div>
+                                <div class="item-name">Michelin</div>
+                                <div class="item-description">Шина летняя "Primacy 3 GRNX 205/55R16 91V"</div>
+                                <div class="buy-options">
+                                    <div class="price">990р.</div>
+                                    <div class="amount">
+                                        <div class="extract">-</div>
+                                        <div class="amount-number">1</div>
+                                        <div class="add">+</div>
+                                    </div>
+                                    <div class="basket basket2"><i class="fas fa-shopping-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="pagination">
+                        <a href="#" class="selected">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">...</a>
+                        <a href="#">335</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="column first">
+                <div class="mannex-logo footer-logo">
+                    <a href="home.html"><img src="/assets/logo.png" alt="mannex-logo"></a>
+                </div>
+                <p>2020 © Mannex Все права защищены</p><br>
+                <p>Публичная оферта</p>
+            </div>
+            <div class="column second">
+                <div class="column-title">Основное</div>
+                <div class="column-elements">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Pro-Запрос</a></li>
+                        <li><a href="#">Гараж</a> </li>
+                        <li><a href="#">Контакты</a> </li>
+                        <li><a href="#">Заказы</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column third">
+                <div class="column-title">Аккаунт</div>
+                <div class="column-elements">
+                    <ul>
+                        <li><a href="#">Корзина</li>
+                        <li><a href="#">Баланс</a></li>
+                        <li><a href="#">Мои заказы</a></li>
+                        <li><a href="#">Запрос продавцу</a></li>
+                        <li><a href="#">Сравнение</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column fourth">
+                <div class="column-title">Контакты</div>
+                <div class="column-elements">
+                    <ul>
+                        <li><i class="fas fa-envelope footer-icons"></i>Главная</li>
+                        <li><i class="fas fa-phone-alt footer-icons"></i>8 900 203 8083<br>
+                            8 912 294 5345</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+    
+</body>
+
+</html>
